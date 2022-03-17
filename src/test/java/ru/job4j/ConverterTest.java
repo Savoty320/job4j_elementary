@@ -6,6 +6,7 @@ import org.junit.Test;
 public class ConverterTest {
 
     @Test
+
     public void whenConvert140RblThen2Euro() {
         float in = 140;
         float expected = 2;
@@ -15,6 +16,7 @@ public class ConverterTest {
     }
 
     @Test
+
     public void whenConvert200RblThen3dot3333Dlr() {
         float in = 180;
         float expected = 3;
@@ -24,6 +26,7 @@ public class ConverterTest {
     }
 
     @Test
+
     public void main() {
     }
 }
