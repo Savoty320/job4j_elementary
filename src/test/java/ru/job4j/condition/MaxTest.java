@@ -5,9 +5,9 @@ import org.junit.Assert;
 
 public class MaxTest {
     @Test
-    public void whenMax7To5When7() {
+    public void whenMax7To4When7() {
         int left = 7;
-        int right = 5;
+        int right = 4;
         int result = Max.max(left, right);
         int expected = 7;
         Assert.assertEquals(result, expected);
